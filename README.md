@@ -6,6 +6,14 @@ This project demonstrates the use of external interrupts INT0 and INT1 on the AT
 
 The LED connected to PC0 is controlled entirely through interrupt service routines.
 
+## Features
+
+- AVR Assembly implementation
+- External Interrupt INT0
+- External Interrupt INT1
+- Interrupt-driven LED control
+- SimulIDE simulation
+
 ## Project Structure
 
 ```text
@@ -18,14 +26,6 @@ simulation/
 images/
  └── interrupt.png
 ```
-
-## Features
-
-- AVR Assembly implementation
-- External Interrupt INT0
-- External Interrupt INT1
-- Interrupt-driven LED control
-- SimulIDE simulation
 
 ## Hardware Components
 
@@ -79,15 +79,15 @@ When INT1 (PD3) is triggered:
 ```text
    simulation/interrupt_demo.sim1
 ```
-2. If the microcontroller does not already contain the program:
+3. If the microcontroller does not already contain the program:
 
    - Double-click the ATmega32A microcontroller in SimulIDE.
    - Locate the **Load firmware** field.
    - Load the generated HEX file into the microcontroller.
      
-3. Start the simulation.
-4. Press INT0 button to turn LED ON.
-5. Press INT1 button to turn LED OFF.
+4. Start the simulation.
+5. Press INT0 button to turn LED ON.
+6. Press INT1 button to turn LED OFF.
 
 ## Source Code
 
