@@ -6,6 +6,19 @@ This project demonstrates the use of external interrupts INT0 and INT1 on the AT
 
 The LED connected to PC0 is controlled entirely through interrupt service routines.
 
+## Project Structure
+
+```text
+code/
+ └── main.asm
+
+simulation/
+ └── interrupt_demo.sim1
+
+images/
+ └── interrupt.png
+```
+
 ## Features
 
 - AVR Assembly implementation
