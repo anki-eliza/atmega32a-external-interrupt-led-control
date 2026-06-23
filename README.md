@@ -6,6 +6,8 @@ This project demonstrates the use of external interrupts INT0 and INT1 on the AT
 
 The LED connected to PC0 is controlled entirely through interrupt service routines.
 
+---
+
 ## Features
 
 - AVR Assembly implementation
@@ -13,6 +15,8 @@ The LED connected to PC0 is controlled entirely through interrupt service routin
 - External Interrupt INT1
 - Interrupt-driven LED control
 - SimulIDE simulation
+
+---
 
 ## Project Structure
 
@@ -27,12 +31,16 @@ images/
  └── interrupt.png
 ```
 
+---
+
 ## Hardware Components
 
 - ATmega32A
 - 2 Push Buttons
 - LED
 - Resistor(s)
+
+---
 
 ## Working Principle
 
@@ -50,9 +58,13 @@ When INT1 (PD3) is triggered:
 - Interrupt Service Routine executes
 - LED connected to PC0 turns OFF
 
+---
+
 ## Circuit Diagram
 
 ![Circuit](images/interrupt.png)
+
+---
 
 ## Building the Project
 
@@ -65,6 +77,8 @@ When INT1 (PD3) is triggered:
 2. Assemble the program using an AVR assembler such as Microchip Studio (recommended).
 
 3. Load the generated HEX file into the ATmega32A microcontroller in SimulIDE before running the simulation.
+
+---
 
 ## Running the Simulation
 
@@ -89,6 +103,8 @@ When INT1 (PD3) is triggered:
 5. Press INT0 button to turn LED ON.
 6. Press INT1 button to turn LED OFF.
 
+---
+
 ## Source Code
 
 The AVR Assembly source code is available in:
@@ -96,6 +112,8 @@ The AVR Assembly source code is available in:
 ```text
 code/main.asm
 ```
+
+---
 
 ## Author
 
